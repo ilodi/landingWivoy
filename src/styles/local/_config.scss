@@ -1,0 +1,33 @@
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+//Contenedor Madre
+.contenedor {
+  height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @media only screen and (max-width: 601px) {
+    height: auto;
+  }
+}
+
+
+//SCROLL
+html.sr .widget {
+  visibility: hidden;
+}

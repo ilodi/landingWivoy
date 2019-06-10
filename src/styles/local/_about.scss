@@ -1,0 +1,47 @@
+#about {
+  .row {
+    display: flex;
+    @media only screen and (max-width: 601px) {
+      flex-direction: column;
+    }
+  }
+  h1 {
+    color: $second;
+    font-size: 2.4em;
+    font-weight: 600;
+    @media only screen and (max-width: 601px) {
+      font-size: 2em;
+      margin-top: 1em;
+      font-weight: 500;
+    }
+  }
+  p {
+    font-size: 2em;
+    color: $negro2;
+    @media only screen and (max-width: 601px) {
+      font-size: 1.4em;
+
+    }
+  }
+  h3 {
+    color: $primary;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 2em;
+    margin-bottom: 1.3em;
+    @media only screen and (max-width: 601px) {
+    font-size: 1.2em;
+    margin-bottom: 2.3em;
+  }
+  }
+  .contenedor-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    @media only screen and (max-width: 601px) {
+      display: none;
+    }
+  }
+}

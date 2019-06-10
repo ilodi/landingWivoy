@@ -1,0 +1,28 @@
+.chatFloat{
+  position: fixed;
+  bottom: 3%;
+  right: 5%;
+  z-index: 8;
+  width: 55px;
+  background: #fff;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 3px 1px rgba(59, 89, 152, 0.47);
+  transition: all 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  i{
+
+    font-size: 2em;
+    color:#3b5998;
+  }
+  &:hover{
+   box-shadow: 0px 2px 3px 1px rgba(59, 89, 152, 0.47);
+   background:  #3b5998;
+   i{
+
+     color:#fff;
+   }
+  }
+}
